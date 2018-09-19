@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>GsimRacing | Home</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    
   </head>
 
   <body>
@@ -14,22 +15,20 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#aboutme">About</a></li>
-          <li><a href="#contactus">Contact us</a></li>
+          <li class="navbutton"><a href="index.html">Home</a></li>
+          <li class="navbutton"><a href="#contactus">Contact us</a></li>
+          <li class="navbutton"><a href="#aboutme">About</a></li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <h1>My Future Project</h1>
-      <h2>By</h2>
-      <img src="images/Zzol Ingenieria.gif" alt="Zzol Ingenieria,CA">
+    <section class="Showcase">
+      <h1>My Future Project</h1>      
     </section>
       
     <main>
         <div>
-            <h3>Introduction </h3>
+            <h2>Introduction </h2>
           </div>
       <p>This is my first website. I am new to all of this and my intention with this assigment is to build some kind of template or simple structure for a project website that i would like to build/create in the near future</p>
       <p>I am triying to build a website with the look and feel of this one <a href="http://www.simplyrace.co.uk/" target="_blank">Simply Race</a> beacuse it is a responsive, simple and well organized webpage that looks amazing to me and also has something to do with my project</p>
@@ -38,44 +37,51 @@
 
     <section>
       <div>
-        <h3>The Project: Simulator Racing Venue </h3>
+        <h2>The Project: Simulator Racing Venue </h2>
       </div>
       <article>
         <p>The idea is to interconnect more than four(4) Sim Racing Stations to the same videogame/platform so people can Race/Compete in a Car Racing simmulator, using life like hardware that inmerse you in the game like if you were a real car pilot competing for 1st place in any virtual circuit around the world.</p>
         <p>This is a project that is running in my head for many years but it is more difficult than it seems. There are a lot different variables like the differents types of platforms, hardware, software, business models to name a few that makes this a very risky business idea.</p> 
         <p>I have reserached a lot of this topic and many similar projects(business) just last between 1 to 2 years but it is just a matter of time before someone could find the sweet spot and make this amazing idea a profitable and fun one.</p>   
       </article>
-      <figure>
-          <img src="images/sportcars.jpg" alt="Sportcars" />
+      <div class='figures'>
+        <figure>
+          <img class="imagen" src="images/sportcars.jpg" alt="Sportcars" />
           <figcaption>Garage full of Sportcars you could be driving </figcaption>
-      </figure>
-      <figure>
-          <img src="images/videogames.png" alt="Videogames" />
+        </figure>
+        <figure>
+          <img class="imagen"src="images/videogames.png" alt="Videogames" />
           <figcaption>Using videogames that keep evolving ith time </figcaption>
-      </figure>
-      <figure>
-          <img src="images/vr3.jpg" alt="Raceroom" />
+        </figure>
+        <figure>
+          <img class="imagen"src="images/vr3.jpg" alt="Raceroom" />
           <figcaption>!!!The Result: SimRacing!!! </figcaption>
-      </figure>
-    </section>    
-
-    <section>
-      <article id="aboutme">
-        <h3>About Me</h3>
-        <p>My name is Guillermo Zerpa. I am 34 years old and I am from Venezuela. I am happily married and togheter we have a beautiful 5 years old daugther. Some of my most biggest hobbies, passion or interests are technology, cars, computers and videogames... and that is why I am triying to push this SimRacing racing project to become something real in the United States.</p>
-        <img src="images/Avatar.JPG" alt="Avatar of me">
+        </figure>
+      </div>
+      </section>    
+      
+      <section>
+      <article>
+        <h2>About Me</h2>
+        <div id='aboutme'>
+          <p id='me' >My name is Guillermo Zerpa. I am 34 years old and I am from Venezuela. I am happily married and togheter we have a beautiful 5 years old daugther. Some of my most biggest hobbies, passion or interests are technology, cars, computers and videogames... and that is why I am triying to push this SimRacing racing project to become something real in the United States.</p>
+          <img id="avatar" src="images/Avatar.JPG" alt="Avatar of me">
+        </div>
       </article>
     </section>
 
     <footer>
       <div id="contactus">
-        <h4 >CONTACT US</h4>
+        <h2 >CONTACT US</h2>
       </div>
       <div>
         <ul>
-          <li class="logo-social">Facebook <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">                
-          <li class="logo-social">Instagram <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
-          <li>Tweeter <img class="logo-social" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+          <li class="logo-social">Email<img src="images/email.jpg" alt="Email"></li>    
+          <li class="logo-social">Facebook<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg" alt="FB"></li> 
+
+          <li class="logo-social">Instagram<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg" alt="IG"></li>
+
+          <li class="logo-social">Tweeter<img  src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg" alt="TW"></li>
         </ul>
       </div>
       <div>
